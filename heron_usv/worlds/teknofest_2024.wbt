@@ -8,8 +8,8 @@ EXTERNPROTO "../protos/Heron.proto"
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.13731047933640217 0.7444629292259733 -0.6533917502331129 0.8805011614166313
-  position 0.6394828385598395 0.38280298081233965 17.85546457146655
+  orientation -0.15152065568750042 -0.013344293358923107 0.9883640122620719 2.839843577592079
+  position 39.80285750820288 -17.78462286236583 8.068402896364496
   follow "heron"
   followType "Mounted Shot"
 }
@@ -1092,62 +1092,6 @@ Heron {
   controller "heron_competetion"
   bodySlot [
     Compass {
-    }
-    Transform {
-      translation 0.23 0 0.12
-      children [
-        Camera {
-          translation 0 0 0.05
-          width 640
-          height 480
-          lens Lens {
-          }
-          focus Focus {
-          }
-        }
-      ]
-    }
-  ]
-}
-Heron {
-  translation 22.755772142219474 -17.289853682347907 0.45993888422617624
-  rotation -0.00041768107952978547 3.116919614748879e-05 0.9999999122854947 3.0004624659500325
-  name "heron(1)"
-  controller "<none>"
-  bodySlot [
-    Compass {
-    }
-    Transform {
-      translation 0.42 0 -0.09
-      children [
-        Track {
-          translation 0.17 0 0
-          children [
-            TrackWheel {
-              position -0.1 0.1
-            }
-            TrackWheel {
-              position 0.1 0
-            }
-          ]
-          translationStep 1
-          rotationStep 2
-          device [
-            LinearMotor {
-            }
-          ]
-          animatedGeometry Shape {
-            appearance PBRAppearance {
-              baseColor 0.972549 0.894118 0.360784
-              metalness 0.1
-            }
-            geometry Box {
-              size 0.025 0.1 0.01
-            }
-          }
-          geometriesCount 55
-        }
-      ]
     }
     Transform {
       translation 0.23 0 0.12
