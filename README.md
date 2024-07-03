@@ -14,4 +14,4 @@ Umarım faydalı olmuştur.
 
 ![ss1](./assets/screenshot1.png)
 
-![perspective](./assets/perspective.png)
+![perspective](./assets/perpective.png)
