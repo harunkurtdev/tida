@@ -9,6 +9,20 @@ Bu çalışmanın başlıca özelliği, yarışmaya uygun bir şekilde aracımı
 Bunu basit bir şekilde yapmaya çalıştım.
 Umarım faydalı olmuştur.
 
+
+Kullandığım methodlar;
+A* 
+Perspective View
+PID
+Potential Field
+HSV Colorize
+
+Görünrüt işlemeyle görüntüyü, HSV uzayından kırmızı, sarı ve yeşil renklerin ayırımı ile bu renkleri engel olarak ayarladıktan sonra  Potential Field üzerine koydum, engel olarak gözüken dubalar A* path planning algoritmasından geçerek, path bulma işlemi sağlanmaktadır.
+
+PID ile Heading kontrolü yanı sıra A* 'dan gelen path'ı trajectory'e dönüştürmekteyim ve bu trajectory ile aracımıza heading kontrolü sağlanmaktadır.
+
+Ufak bir Seri anlatacağım bu konuyla ilgili. Takipte kalabilirsiniz.
+
 "Simülasyon gerçek dünyanın yansımasıdır."
 
 ![teknofest_2024](./assets/teknofest_2024_1.jpg)
