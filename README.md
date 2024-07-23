@@ -1,7 +1,7 @@
 # teknofest_ida_yarismasi
 
 [video_link](https://youtu.be/VB5z4U7GiJE)
-![Matematiksel_Terimler](./Teknofest USV.pdf)
+![Matematiksel_Terimler](./Teknofest USV .pdf)
 
 Merhaba Arkadaşlar,
 
