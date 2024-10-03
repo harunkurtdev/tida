@@ -1,4 +1,4 @@
-# teknofest_ida_yarismasi 2024
+# TİDA 2025
 
 [video_link](https://youtu.be/VB5z4U7GiJE)
 ![Matematiksel_Terimler](./Teknofest USV .pdf)
